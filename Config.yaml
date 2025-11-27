@@ -1,0 +1,13 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+database:
+  url: "postgres://postgres:postgres@localhost:5432/storage_dev"
+
+storage:
+  upload_dir: "./uploads"
+
+auth:
+  jwt_secret: "CHANGE_ME_TO_LONG_RANDOM_SECRET_STRING"
+  token_ttl_hours: 24
