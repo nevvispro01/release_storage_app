@@ -3,7 +3,7 @@ server:
   port: 8080
 
 database:
-  url: "postgres://postgres:postgres@localhost:5432/storage_dev"
+  url: "postgres://storage_user:123@localhost:5432/storage_db"
 
 storage:
   upload_dir: "./uploads"
